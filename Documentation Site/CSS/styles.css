@@ -1,0 +1,116 @@
+*, html {
+    scroll-behavior: smooth !important;
+}
+
+html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-anchor: none;
+    overflow-x: hidden;
+    margin-top: 0;
+}
+
+nav {
+    color: hsla(5, 5%, 55%, 0.9);
+    display: block;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    border-right: 3px solid hsla(0, 5%, 17%, 0.9);
+    border-right: 1;
+}
+
+nav a {
+    text-decoration: none;
+    color:hsla(5, 5%, 55%, 0.9);
+}
+
+#title {
+    margin-top: 0;
+    padding-top: 16px;
+}
+
+nav header {
+    font-weight: bold;
+    color: #040404;
+}
+
+nav h3 {
+    font-weight: normal;
+}
+
+.nav-title {
+    margin: 10px 25px;
+    padding: 7px 0;
+}
+.nav-title::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid hsla(0, 5%, 17%, 0.9);
+    height: 0px;
+    width: 20.4vw;
+    top: 10px;
+    position: relative;
+    left: -32px;
+}
+.nav-title:last-of-type::after {
+    border: 0;
+    content: none;
+}
+
+main {
+    height: 100%;
+    width: 80%;
+    display: block;
+    position: fixed;
+    left: 20vw;
+    top: 20px;
+    margin-left: 2em;
+    overflow-y: scroll
+}
+
+main header {
+    font-weight: 400;
+}
+
+.main-title div {
+    margin-left: 1em;
+}
+
+main p {
+    width: 80%;
+    line-height: 1.3em;
+    color: hsla(0, 7%, 24%, 0.9);
+}
+
+.lst-elements li {
+    line-height: 1.3em;
+    color: hsla(0, 7%, 24%, 0.9);
+}
+
+.italic {
+    font-style: italic;
+}
+
+.code {
+    background-color: rgba(254, 243, 229, 0.598);
+    width: 50%;
+    padding: 0.4em;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 1px rgba(254, 243, 229, 0.598);
+    display: block;
+}
+
+br {
+    display: block;
+    font-size: 25%;
+}
+
+main section:last-of-type {
+    padding-bottom: 2em;
+}
